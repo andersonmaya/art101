@@ -9,7 +9,7 @@ body {
 
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
-  font-family: sans-serif;
+  font-family: fantasy;
 }
 
 /* and we can have rules that overlap other rules, both take effect */
@@ -31,6 +31,6 @@ h1 {
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 8px #197b3f;
+  border: solid 8px #306f49d1;
   background-color: #d9d4c2;
 }
