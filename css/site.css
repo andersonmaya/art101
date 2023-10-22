@@ -38,3 +38,7 @@ h1 {
 #selfie{
   width: 50%;
 }
+
+#selfie{
+  float: right;
+}
