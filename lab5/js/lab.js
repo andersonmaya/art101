@@ -1,6 +1,60 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+/*
+ * Author: Maya Anderson <mizenten@ucsc.edu>
+ * Created: 25 October
+ * License: Public Domain
+ */
+
+//Define Variables
+make = "Mazda";
+model = "Mazda3";
+color = "White";
+year = 2016;
+ownIt = true;
+
+//calculate
+age = 2023 - year;
+
+//output
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Age: " + age + " years<br>");
+document.writeln("ownIt: " + ownIt + "<br>");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Constants
 
