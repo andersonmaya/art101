@@ -4,6 +4,11 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 7px #2176FF;
+    background-color: #8bcde5;
+  }
+
+  .smallcar {
+    margin: 10px;
+    max-width: 600px;
   }
