@@ -1,19 +1,10 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 7px #2176FF;
-    background-color: #8bcde5;
-      .output-box
-        padding: 10px;
-        margin-bottom: 10px;
-        border: #40499d;
-        background-color: #e7f435;
-  }
-
-.output-box {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 7px #40499d;
+    border: solid 7px #ff5b1a;
     background-color: #e7f435;
 }
+
+
+
 
