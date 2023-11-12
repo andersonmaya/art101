@@ -1,6 +1,6 @@
 .special {
-    background-color: rgb(131, 131, 178);
-    border: dotted 5px rgb(32, 29, 77);
-    color: rgb(244, 188, 34);
+    background-color: black;
+    border: dotted 15px blue;
+    color: orange;
     font-weight: bold;
 }
