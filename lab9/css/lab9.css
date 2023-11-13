@@ -1,6 +1,5 @@
-.special{
-    background-color: black;
-    border: dotted 15px blue;
-    color: orange;
+special {
+    background-color: #0e0e8a !important;
+    border: dashed 5px #82ee07 !important;
     font-weight: bold;
 }
