@@ -4,10 +4,10 @@
 // Date: November 12, 2023
 
 
-
 // add button to challenge section
 $("#challenge").append("<button id='button-challenge'>Make Special</button>");
 // add a click listener to the challenge button
+console.log("challenge button clicked")
 $("#button-challenge").click(function(){
     // now add (or subtract) the "special" class to the section
     $("#challenge").toggleClass("special");
@@ -17,25 +17,28 @@ $("#button-challenge").click(function(){
 // add button to problems section
 $("#problems").append("<button id='button-problems'>Make Special</button>");
 // add a click listener to the problems button
+console.log("problems button clicked")
 $("#button-problems").click(function(){
     // now add (or subtract) the "highlight" class to the section
-    $("#problems").toggleClass("back");
+    $("#problems").toggleClass("special");
 });
 
 
 // add button to reflection section
 $("#reflection").append("<button id='button-reflection'>Make Special</button>");
 // add a click listener to the reflection button
+console.log("reflection button clicked")
 $("#button-reflection").click(function(){
     // now add (or subtract) the "highlight" class to the section
-    $("#reflection").toggleClass(".special");
+    $("#reflection").toggleClass("special");
 });
 
 
 // add button to results section
 $("#results").append("<button id='button-results'>Make Special</button>");
 // add a click listener to the results button
+console.log("results button clicked")
 $("#button-results").click(function(){
     // now add (or subtract) the "highlight" class to the section
-    $("#results").toggleClass(".special");
+    $("#results").toggleClass("special");
 });
