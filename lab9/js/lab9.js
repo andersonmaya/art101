@@ -5,7 +5,7 @@
 
 
 // add button to challenge section
-$("#challenge").append("<button id='button-challenge'>Make Special</button>");
+$("#challenge").append("<button id='button-challenge'>Peanut Butter?</button>");
 // add a click listener to the challenge button
 console.log("challenge button clicked")
 $("#button-challenge").click(function(){
@@ -15,17 +15,17 @@ $("#button-challenge").click(function(){
 
 
 // add button to problems section
-$("#problems").append("<button id='button-problems'>Make Special</button>");
+$("#problems").append("<button id='button-problems'>Pookie</button>");
 // add a click listener to the problems button
 console.log("problems button clicked")
 $("#button-problems").click(function(){
     // now add (or subtract) the "highlight" class to the section
-    $("#problems").toggleClass("special");
+    $("#problems").toggleClass("pookie");
 });
 
 
 // add button to reflection section
-$("#reflection").append("<button id='button-reflection'>Make Special</button>");
+$("#reflection").append("<button id='button-reflection'>Peanut Butter?</button>");
 // add a click listener to the reflection button
 console.log("reflection button clicked")
 $("#button-reflection").click(function(){
@@ -35,10 +35,10 @@ $("#button-reflection").click(function(){
 
 
 // add button to results section
-$("#results").append("<button id='button-results'>Make Special</button>");
+$("#results").append("<button id='button-results'>Pookie</button>");
 // add a click listener to the results button
 console.log("results button clicked")
 $("#button-results").click(function(){
     // now add (or subtract) the "highlight" class to the section
-    $("#results").toggleClass("special");
+    $("#results").toggleClass("pookie");
 });

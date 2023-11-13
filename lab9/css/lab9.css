@@ -1,5 +1,20 @@
 .special {
-    background-color: #0e0e8a !important;
-    border: dashed 5px #82ee07 !important;
+    background-color: #f3af50 !important;
+    border: dashed 5px #bf7a0b !important;
+}
+
+.pookie {
+    background-color:#2c6a47 !important;
+    border: dashed 5px #5a3b20 !important;
     font-weight: bold;
+}
+
+.peanut {
+    background-color:#e7941e !important;
+    border: dashed 5px #fec161 !important;
+}
+
+.pumpkinpie {
+    background-color:#ca762b !important;
+    border: 10px #e5ce9b !important;
 }
