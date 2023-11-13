@@ -15,7 +15,7 @@ $("#button-challenge").click(function(){
 
 
 // add button to problems section
-$("#problems").append("<button id='button-problems'>Pookie</button>");
+$("#problems").append("<button id='button-problems'>Push for Pookie</button>");
 // add a click listener to the problems button
 console.log("problems button clicked")
 $("#button-problems").click(function(){
@@ -25,7 +25,7 @@ $("#button-problems").click(function(){
 
 
 // add button to reflection section
-$("#reflection").append("<button id='button-reflection'>Peanut Butter?</button>");
+$("#reflection").append("<button id='button-reflection'>More Peanut Butter?</button>");
 // add a click listener to the reflection button
 console.log("reflection button clicked")
 $("#button-reflection").click(function(){
@@ -35,7 +35,7 @@ $("#button-reflection").click(function(){
 
 
 // add button to results section
-$("#results").append("<button id='button-results'>Pookie</button>");
+$("#results").append("<button id='button-results'>Push for Pookie</button>");
 // add a click listener to the results button
 console.log("results button clicked")
 $("#button-results").click(function(){
