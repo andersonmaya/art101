@@ -4,8 +4,9 @@
 
 $("#my-button").click(function(){
     console.log("Button clicked");
-    var name = prompt("What is your name?:");
-    console.log("Prompt Returned: " + name);
+    var name = $("input").val()
+    console.log("input: " + name);
     newText = "Hi " + name + "!";
     $("#title").html(newText);
 });
+
