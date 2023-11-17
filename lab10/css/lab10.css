@@ -3,7 +3,7 @@
     margin: 10px auto;
     padding: 10px;
     border-radius: 15px;
-    border: solid 4px rgb(255, 136, 0);
+    border: solid 4px #ff8800;
     min-height: 100px;
   }
   
@@ -35,4 +35,8 @@
   .text:nth-child(even) p {
     background-color: #1089e5;
     color: white;
+  }
+
+  button {
+    background-color: #ff8800;
   }
