@@ -2,6 +2,15 @@
 // Author: Maya Anderson
 // Created: 1 November
 
+$("#my-button").click(function(){
+  console.log("Button clicked");
+  var name = $("input").val()
+  console.log("input: " + name);
+  newText = "Hi " + name + "!";
+  $("#title").html(newText);
+});
+
+
 function sortUserName() {
     var userName = window.prompt("Hi. Please tell me your name so I can change it!");
     console.log("userName =", userName);
