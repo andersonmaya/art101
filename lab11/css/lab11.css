@@ -1,25 +1,42 @@
-/*
-   lab.js - This simple JavaScript/jQuery script gets a value from an input field and outputs a modified version.
-   Requirements: jQuery must be loaded for this script to work.
-   Author: Maya Anderson
-   Date: 18 November 2023
-*/
-
-/*Sorts the characters of a string in alphabetical order.*/
-function sortString(inputString) {
-  // We have to convert our string to an array and back again to sort it
-  return inputString.split('').sort().join('');
+*{
+    padding: 0;
+    margin: 0;
 }
 
-/*click listener for button*/
-$("#submit").click(function(){
-});
+.container{
+    width: 100%;
+    height: 25vh;
+    background-color: #8bcde5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    background-color: #665847;
+    width: 100px;
+    height: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+    position: relative;
+}
 
-/*get value of input field*/
-const userName = $("#user-name").val();
+.button::before{
+    position: absolute;
+    content: '';
+    background-color: #e9e2dc;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    margin: 5px;
+    transition: 1s;
+}
 
-/*now let's sort it*/
-userNameSorted = sortString(userName);
-
-/*append a new div to our output div*/
-$("#output").html ('<div class="text"><p>' + userNameSorted + '</p></div>');
+input:checked + .button{
+    background-color: #5b9a4f;
+}
+input:checked + .button::before{
+    transform: translateX(50px);
+}
+input{
+    display: none;
+}

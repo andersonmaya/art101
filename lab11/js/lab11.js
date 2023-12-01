@@ -41,3 +41,8 @@ $("#submit").click(function(){
     newText = "Hello " + anagram + "!";
     $("#title").html(newText);
 });
+
+
+function josh() {
+    document.getElementById("josh").src = "img/josh.jpg";
+  }
