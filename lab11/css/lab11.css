@@ -40,3 +40,4 @@ input:checked + .button::before{
 input{
     display: none;
 }
+
